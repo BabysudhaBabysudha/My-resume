@@ -16,7 +16,7 @@ function Home() {
                         <ul className={isDarkMode?'nav myNav-dark':'nav myNav'} id='navigation'>
                             <li className='nav-item'><Link to='/' className='nav-link active navbar-text link'>Home</Link></li>
                             <li className='nav-item'><a href='https://github.com/BabysudhaBabysudha' className='nav-link active navbar-text link'>Project</a></li>
-                            <li className='nav-item'><a href='#footer' className='nav-link active navbar-text link'>Contact</a></li>
+                            <li className='nav-item'><a href='#footer' Link="/contact" className='nav-link active navbar-text link'>Contact</a></li>
                             <li className='nav-item nav-link'><DarkModeToggle onChange={setIsDarkMode} 
                             checked={isDarkMode} size={30}/></li>
                             {/* <li className='nav-item nav-link'><button onClick={()=>setTheme(!theme)}>Theme</button></li> */}
